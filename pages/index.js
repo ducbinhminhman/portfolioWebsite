@@ -1,22 +1,22 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
+  AiFillMediumSquare,
+  AiFillGithub,
+  AiFillLinkedin
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+import deved from "../public/minh.jpg";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import dataJob from "../public/dataJob.png";
+import web2 from "../public/azureETL.png";
+import web3 from "../public/stockPrediction.png";
+import web4 from "../public/fitnessTracker.png";
+import web5 from "../public/Portfolio.png";
+import web6 from "../public/report.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,7 +31,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">developedbyed</h1>
+            <h1 className="font-burtons text-xl">Minh</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -51,19 +51,25 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Dimitri Marco
+              Minh
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and designer.
+              Data Analyst and App Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services for programming and design content
               needs. Join me down below and let's get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
+            <a href="https://medium.com/@bnhminh_38309" target="_blank" rel="noopener noreferrer">
+              <AiFillMediumSquare />
+            </a>
+            <a href="https://www.linkedin.com/in/binhminhman/" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin />
-              <AiFillYoutube />
+            </a>
+            <a href="https://github.com/ducbinhminhman" target="_blank" rel="noopener noreferrer">
+              <AiFillGithub />
+            </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
@@ -72,63 +78,57 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+            I am Minh. I’m a Data Science for Business Master’s student with a passion for turning data into decisions. 
+            <span className="text-teal-500">Top of my class </span> in International Business, 
+            I also write on Medium about using analytics and cloud computing for impactful insights. 
+            Check out my work <span className="text-teal-500"> <a href='https://medium.com/@bnhminh_38309'>here</a> </span>
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              I offer from a wide range of services, including Data Analysis and Reporting ,
+              Application Development and Data Engineering.
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+              Data Analysis and Reporting
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+              Turn your data into valuable insights with custom dashboards and AI reports. Make better business decisions with clear and interactive reports.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
+              <p className="text-gray-800 py-1">Looker Studio</p>
+              <p className="text-gray-800 py-1">Power Bi</p>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+              Application Development
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
+              Simplify your work with custom applications. Whether it's managing your database or creating specific business tools, we build easy-to-use apps to boost your productivity.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Retool</p>
+              <p className="text-gray-800 py-1">Streamlit</p>
+              <p className="text-gray-800 py-1">Databutton</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Data Engineering</h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+              Improve your data processes with our ETL pipeline and automation services. Ensure your data is clean and ready for analysis with our data engineering expertise.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Python</p>
+              <p className="text-gray-800 py-1">Docker</p>
+              <p className="text-gray-800 py-1">Mage ai</p>
+              <p className="text-gray-800 py-1">Google Cloud</p>
+              <p className="text-gray-800 py-1">Microsoft Azure</p>
             </div>
           </div>
         </section>
@@ -136,29 +136,23 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+            Check out my projects in data analysis, app development, and data engineering. See how I turn data into insights, build easy-to-use tools, and improve data processes. Visit my portfolio to see my work.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
+            <a href="https://medium.com/@bnhminh_38309/decoding-data-job-salaries-a-simple-guide-to-whats-out-there-d578944d1a62" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={dataJob}
               />
+            </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://medium.com/@bnhminh_38309/azure-adventures-kickstart-your-journey-in-cloud-migration-data-engineering-part-1-c3d580042cc7" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -166,8 +160,10 @@ export default function Home() {
                 layout="responsive"
                 src={web2}
               />
+            </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://medium.com/dev-genius/a-beginners-guide-to-predicting-stock-prices-with-lstm-networks-278070252731" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -175,8 +171,10 @@ export default function Home() {
                 layout="responsive"
                 src={web3}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://medium.com/dev-genius/building-a-comprehensive-fitness-tracker-app-with-streamlit-and-bigquery-9edff8efc7cf" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -184,8 +182,10 @@ export default function Home() {
                 layout="responsive"
                 src={web4}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://medium.com/@bnhminh_38309/decoding-data-job-salaries-a-simple-guide-to-whats-out-there-d578944d1a62" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -193,8 +193,10 @@ export default function Home() {
                 layout="responsive"
                 src={web5}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://medium.com/@bnhminh_38309/decoding-data-job-salaries-a-simple-guide-to-whats-out-there-d578944d1a62" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -202,6 +204,7 @@ export default function Home() {
                 layout="responsive"
                 src={web6}
               />
+              </a>
             </div>
           </div>
         </section>
