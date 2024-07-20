@@ -47,7 +47,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Minh</h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">Data Analyst and App Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming and design content needs. Join me down below and let's get cracking!
+              Freelancer providing services for programming and design content needs. Join me down below and let get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://medium.com/@bnhminh_38309" target="_blank" rel="noopener noreferrer">
@@ -95,7 +95,7 @@ export default function Home() {
               <Image src={code} width={100} height={100} alt="Icon representing coding" />
               <h3 className="text-lg font-medium pt-8 pb-2">Application Development</h3>
               <p>
-                Simplify your work with custom applications. Whether it's managing your database or creating specific business tools, we build easy-to-use apps to boost your productivity.
+                Simplify your work with custom applications. Whether it is managing your database or creating specific business tools, we build easy-to-use apps to boost your productivity.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Retool</p>
