@@ -59,9 +59,11 @@ export default function Home() {
               <a href="https://github.com/ducbinhminhman" target="_blank" rel="noopener noreferrer">
                 <AiFillGithub />
               </a>
-            </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            </div >
+            <div className="flex justify-center items-center min-h-screen">
+            <div className="bg-gradient-to-b from-teal-500 rounded-full w-64 h-64 md:w-96 md:h-96 relative overflow-hidden mt-10 md:mt-20">
               <Image src={deved} layout="fill" objectFit="cover" alt="Profile picture of Minh" />
+            </div>
             </div>
           </div>
         </section>
