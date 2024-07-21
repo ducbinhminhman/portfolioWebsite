@@ -49,7 +49,7 @@ export default function Home() {
           <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Minh</h2>
           <h3 className="text-2xl py-2 text-white md:text-3xl">Data Analyst and App Developer</h3>
           <p className="text-md py-5 leading-8 text-gray-200 max-w-xl mx-auto md:text-xl">
-            Freelancer providing services for programming and design content needs. Join me down below and let's get cracking!
+          Freelancer providing services for programming and design content needs. Join me below to get started and bring your project to life!
           </p>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400">
             <a href="https://medium.com/@bnhminh_38309" target="_blank" rel="noopener noreferrer">
@@ -74,7 +74,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I am Minh. I am a Data Science for Business Master’s student with a passion for turning data into decisions.
+              Hi, I am Minh, a Data Scientist passionate about turning data into actionable decisions.
               <span className="text-teal-500"> Top of my class</span> in International Business,
               I also write on Medium about using analytics and cloud computing for impactful insights.
               Check out my work <span className="text-teal-500"><a href="https://medium.com/@bnhminh_38309">here</a></span>.
