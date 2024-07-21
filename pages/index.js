@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <main className="bg-white dark:bg-gray-900">
       <section className="min-h-screen relative">
-        <video className="absolute top-0 left-0 w-full h-full object-cover z-0" src={require("../public/IntroVid.mp4")} autoPlay muted loop playsInline />
+        <video className="absolute top-0 left-0 w-full h-full object-cover z-0" src={require("../public/IntroVid.mp4")} autoPlay muted loop />
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10"></div>
         <nav className="py-10 mb-12 flex justify-between text-white relative z-20 px-10 md:px-20 lg:px-40">
           <h1 className="font-burtons text-xl">Minh</h1>
@@ -39,7 +39,7 @@ export default function Home() {
               />
             </li>
             <li>
-              <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">
+              <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/resume">
                 Resume
               </a>
             </li>
@@ -49,7 +49,7 @@ export default function Home() {
           <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Minh</h2>
           <h3 className="text-2xl py-2 text-white md:text-3xl">Data Analyst and App Developer</h3>
           <p className="text-md py-5 leading-8 text-gray-200 max-w-xl mx-auto md:text-xl">
-          Freelancer providing services for programming and design content needs. Join me below to get started and bring your project to life!
+            Freelancer delivering high-quality programming and design services. Connect with me below to kickstart your project!
           </p>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400">
             <a href="https://medium.com/@bnhminh_38309" target="_blank" rel="noopener noreferrer">
@@ -64,6 +64,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
 
         <section className="px-10 md:px-20 lg:px-40">
           <div className="flex justify-center items-center min-h-screen">
