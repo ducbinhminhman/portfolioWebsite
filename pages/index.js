@@ -4,6 +4,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import Image from "next/image";
 
+import Link from "next/link"; 
 import deved from "../public/minh.jpg";
 import code from "../public/code.png";
 import design from "../public/design.png";
@@ -39,9 +40,9 @@ export default function Home() {
               />
             </li>
             <li>
-              <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/resume">
-                Resume
-              </a>
+                <Link href="/resume">
+                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8">Resume</a>
+                </Link>
             </li>
           </ul>
         </nav>
