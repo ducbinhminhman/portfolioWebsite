@@ -14,7 +14,7 @@ export default function Resume() {
           <div className="w-full h-screen">
             <object data="/resume.pdf" type="application/pdf" width="100%" height="100%">
               <p className="text-gray-800 dark:text-gray-200">
-                It appears your browser doesn't support PDFs. Please download the PDF to view it: 
+                It appears your browser does not support PDFs. Please download the PDF to view it: 
                 <a href="/resume.pdf" className="text-teal-600 dark:text-teal-400">Download PDF</a>.
               </p>
             </object>
