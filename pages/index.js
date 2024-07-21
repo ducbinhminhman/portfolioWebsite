@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <main className="bg-white dark:bg-gray-900">
       <section className="min-h-screen relative">
-        <video className="absolute top-0 left-0 w-full h-full object-cover z-0" src={require("../public/IntroVid.mp4")} autoPlay muted loop />
+        <video className="absolute top-0 left-0 w-full h-full object-cover z-0" src={require("../public/IntroVid.mp4")} autoPlay muted loop playsInline />
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10"></div>
         <nav className="py-10 mb-12 flex justify-between text-white relative z-20 px-10 md:px-20 lg:px-40">
           <h1 className="font-burtons text-xl">Minh</h1>
